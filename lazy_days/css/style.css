@@ -1,0 +1,47 @@
+body {
+  color: #333333;
+}
+
+header {
+  background-color: #FCEE21;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+h1 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 40px;
+
+}
+
+nav {
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+}
+
+h2 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 24px;
+}
+
+h3 {
+  font-family: "Spectral", serif;
+  font-style: italic;
+}
+
+p {
+  font-family: "Spectral", serif;
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+}
+
+main, footer {
+  text-align: center;
+}
+
+footer {
+  background-color: #FCEE21;
+}
