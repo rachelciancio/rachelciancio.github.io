@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css?family=Lato|Raleway:400,600');
+
+/* ----------------------------------------
+Base Styles
+------------------------------------------- */
+body {
+	text-align: center;
+	font-family: "Raleway", sans-serif;
+	color: #44545E;
+}
+
+header a {
+	color: white;
+	text-decoration: none;
+}
+
+header {
+	padding-top: 50px;
+	background-image: url('../images/blog_header_bg.jpg');
+	background-position: center;
+	background-size: cover;
+	height: 100px;
+	margin-bottom: 48px;
+	letter-spacing: 12px
+}
+nav a {
+ color: #7B98AA;
+ padding: 20px;
+ margin: 0;
+ font-size: 16px;
+ text-decoration: none;
+}
+
+img {
+	max-width: 100%;
+}
+
+h1, h2, h3, nav {
+	text-transform: uppercase;
+}
+
+h2 {
+	padding-bottom: 40px;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 65% 35%;
+    grid-gap: 10px;
+		font-size: 15px;
+}
+
+aside {
+	padding: 20px 25px 20px 25px;
+}
+
+
+article, aside {
+	text-align: left;
+}
+
+footer {
+background-color: #cdf3f6;
+font-family: "Lato", sans-serif;
+
+}
+
+button {
+	border: 2px solid #44545E;
+	color: #44545E;
+	background-color: transparent;
+	font-weight: 500;
+	text-transform: uppercase;
+	font-size: 12px;
+}
+
+input {
+	width: 250px;
+	border: 0;
+	text-align: center;
+}
