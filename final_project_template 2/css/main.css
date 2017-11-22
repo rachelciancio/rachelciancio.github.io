@@ -1,0 +1,89 @@
+<link href="https://fonts.googleapis.com/css?family=Assistant|Catamaran|Josefin+Slab|Rock+Salt" rel="stylesheet">
+/* --------------------------------------------------------------------------
+Base styles:
+----------------------------------------------------------------------------- */
+/* Fix to include padding and border in the total width for each element */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  color: #AAAAAA;
+  text-align: center;
+  text-decoration: none;
+}
+
+/* Fix for responsive images */
+img {
+  max-width: 100%;
+}
+
+/* ----------------------------------------
+Typography
+------------------------------------------- */
+p {
+  font-family: 'Assistant', sans-serif;
+}
+
+h1 {
+  font-family: 'Rock Salt', cursive;
+}
+
+h2, h3 {
+  font-family: 'Catamaran', sans-serif;
+  color: #849483;
+}
+
+a {
+
+}
+
+a:hover {
+
+}
+/* ----------------------------------------
+Lists
+------------------------------------------- */
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* ----------------------------------------
+Layout
+------------------------------------------- */
+
+.about {
+  background-color: #759EB8;
+  padding: 30px 100px 30px 100px;
+}
+
+.services-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-column-gap: 20px;
+}
+
+.rates-grid {
+  display: inline-grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-column-gap: 20px;
+}
+
+.faq-grid {
+  display: inline-grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+/* ----------------------------------------
+Header
+------------------------------------------- */
+
+/* ----------------------------------------
+Buttons
+------------------------------------------- */
+
+/* ----------------------------------------
+Footer
+------------------------------------------- */
