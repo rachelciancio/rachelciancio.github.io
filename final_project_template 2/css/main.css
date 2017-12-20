@@ -1,4 +1,4 @@
-<link href="https://fonts.googleapis.com/css?family=Assistant|Catamaran|Josefin+Slab|Rock+Salt" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Assistant|Catamaran|Josefin+Slab|Montserrat" rel="stylesheet">
 /* --------------------------------------------------------------------------
 Base styles:
 ----------------------------------------------------------------------------- */
@@ -26,20 +26,69 @@ p {
 }
 
 h1 {
-  font-family: 'Rock Salt', cursive;
+  font-family: 'Montserrat', sans-serif;
+  letter-spacing: 4px;
+  border-style: solid;
+  padding: 10px;
+  margin-top: 100px;
+  margin-left: 50px;
 }
 
-h2, h3 {
-  font-family: 'Catamaran', sans-serif;
+hr {
+width: px;
+margin-left: 50px;
+}
+
+header h2 {
+  border-style: solid;
+  border-color: #AAAAAA;
+  color: #AAAAAA;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  padding: 10px;
+  margin-left: 50px;
+}
+
+
+nav a {
+  text-decoration: none;
   color: #849483;
+  font-size: 20px;
+  font-family: 'Catamaran', sans-serif;
+
 }
 
-a {
+nav a:hover {
+  color: black;
+  transition: all 300ms ease-out;
+}
+
+nav {
+  border-style: solid;
+  margin-top: 165px;
+  margin-right: 50px;
+  word-spacing: 25px;
+}
+
+section h2 {
+  background: linear-gradient(to right, #849483, #AAAAAA, #849483);
+  color: white;
+  text-transform: uppercase;
+  font-family: 'Montserrat', sans-serif;
+  margin-left: 10px;
+  margin-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+
+.rates-grid article {
 
 }
 
-a:hover {
-
+form {
+  text-align: left;
+  margin-left: 100px;
 }
 /* ----------------------------------------
 Lists
@@ -50,19 +99,31 @@ ul {
   margin: 0;
 }
 
+nav ul li{
+  display: inline-flex;
+  font-family: ''
+}
+
 /* ----------------------------------------
 Layout
 ------------------------------------------- */
-
-.about {
-  background-color: #759EB8;
-  padding: 30px 100px 30px 100px;
+.header-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-column-gap: 50px
 }
+
 
 .services-grid {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-column-gap: 20px;
+}
+
+.services-grid img {
+  margin-right: 20px;
+  width: 250px;
+  height: 150px;
 }
 
 .rates-grid {
@@ -71,19 +132,97 @@ Layout
   grid-column-gap: 20px;
 }
 
+.insurance {
+ background-color:
+}
+
 .faq-grid {
-  display: inline-grid;
+  display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-column-gap: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.faq-grid img {
+  position: relative;
+  width: 250px;
+  height: 200px;
+  opacity: 0.8;
+}
+
+.faq-grid img:hover {
+  opacity: 1.0;
+  transition: all 200ms ease-in-out;
+}
+
+.faq-grid h3 {
+  position; fixed;
+  width: 100%;
+}
+
+
+.about-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-right: 20px;
+}
+
+.carousel-wrapper {
+  width: 450px;
+  height: 400px;
+  align-content: center;
+}
+
+.contact-grid {
+ display: grid;
+ grid-template-columns: 1fr 1fr 1fr;
+ margin-bottom: 100px;
+}
+
+.contact-grid img {
+  height: 400px;
+  width: 300px;
+  filter: grayscale(100%);
 }
 
 /* ----------------------------------------
 Header
 ------------------------------------------- */
 
+header {
+  background-image: url('../img/header-bg.jpg');
+  background-size: cover;
+	background-position: center;
+  height: 800px;
+  margin-top: 0px;
+}
+
 /* ----------------------------------------
 Buttons
 ------------------------------------------- */
-
+button {
+  color: #AAAAAA;
+}
 /* ----------------------------------------
 Footer
 ------------------------------------------- */
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background: linear-gradient(to right, #849483, #AAAAAA, #849483);
+  border-top-color: black;
+  padding-top: 10px;
+  color: white;
+}
+
+footer p {
+  font-size: 10px;
+}
+
+@media	screen	and	(max-width: 400px)	{
+					.faq-grid {
+									grid-template-columns:	repeat(2,	1fr);
+					}
+}

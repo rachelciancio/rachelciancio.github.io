@@ -4,6 +4,7 @@
   <meta charset="utf-8">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://fonts.googleapis.com/css?family=Assistant|Catamaran|Josefin+Slab|Montserrat" rel="stylesheet">
   <title>Remy Rousseau</title>
   <link rel="apple-touch-icon" href="apple-touch-icon.png">
   <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
@@ -12,41 +13,35 @@
 </head>
 
 <body>
-  <header>
+<header>
+    <div class= "header-grid">
+<div>
   <h1> Remy Rousseau, LMFT </h1>
+  <hr>
   <h2> Individual, Couples, and Group Therapy</h2>
+</div>
 
+<div>
   <nav>
-  	<a class=“hamburger” href=“”><i class=“fa fa-bars”></i></a>
+  	<a class="hamburger" href=“”><i class="fa fa-bars"></i></a>
   <ul>
-  	<li> <a href=“#about”>About</a></li>
-  	<li> <a href=“#services”>Services</a></li>
-  	<li> <a href=“#rates”>Rates</a></li>
-  	<li> <a href=“#faq”>FAQ</a></li>
-  	<li> <a href=“#contact”>Contact</a></li>
+  	<li> <a href="#services">SERVICES</a></li>
+  	<li> <a href="#rates">RATES</a></li>
+  	<li> <a href="#faq">FAQ</a></li>
+    <li> <a href="#about">ABOUT</a></li>
+  	<li> <a href="#contact">CONTACT</a></li>
   </ul>
   </nav>
+</div>
+</div>
 </header>
 
 <main>
-  <section>
-  	<h2> About </h2>
-  		<div class=“about”>
-  		<p> personal blurb </p>
-  		<p> therapy style </p>
-  		<h3> Education and Certifications </h3>
-  			<ul>
-  				<li>BA in Psychology, Colorado State University, 2014</li>
-  				<li>MA in Marriage and Family Therapy, Seattle Pacific University, 					      2019 </li>
-  				<li> Certified Medical Family Therapist, 2018 </li>
-  				<li> AASECT Certified, 2018 </li>
-  			</ul>
-  		</div>
-   </section>
 
    <section>
   	<h2> Services </h2>
-  		<div class="services-grid">
+
+  		<div class="services-grid panel">
 
         <article>
   		      <h3> Services Offered </h3>
@@ -57,7 +52,6 @@
 
         <article>
   		      <h3> Specializations </h3>
-
   			       <ul>
   				       <li>Depression, Anxiety</li>
   				       <li>Trauma, Abuse</li>
@@ -71,7 +65,8 @@
          <article>
              <h3> LGBT+ Affirming </h3>
 
-               <p> <i> Here is where Remy's personal statement regarding this essential part of her therapeutic identity.</i></p>
+            <p> <i> Here is where Remy's personal statement regarding this essential part of her therapeutic identity.</i></p>
+            <img src="img/lgbt.jpg" alt="prideflag">
           </article>
 
        </div>
@@ -79,31 +74,27 @@
 
     <section>
   	  <h2> Rates </h2>
-  		<div class=“rates-grid”>
+  		<div class="rates-grid panel">
 
-        <article>
+        <div>
           <h3>Individual</h3>
   		    <p>$100.00 per 50-55 minute session</p>
   		    <p>$120.00 per 80-85 minute session</p>
-        </article>
+        </div>
 
-        <article>
+        <div>
           <h3>Couples</h3>
   		    <p>$150.00 per 80-85 minute session</p>
           <p>All couples sessions are this length. </p>
-  		  </article>
+  		  </div>
 
-        <article>
+        <div>
           <h3>Groups</h3>
   		      <p>Group Therapy rates vary based on the specifics of each group</p>
             <p>Contact me HERE to inquire about current groups</p>
-        </article>
+        </div>
 
-      </div>
-    </section>
-
-    <section>
-     <div class="insurance">
+      <article>
           <h3> Insurance </h3>
   	        	<p> I accept most major insurances as both an in-network and out-of-network provider.</p>
   		        <p>Services may be covered in full or in part by your health insurance or Employee Assistance Plan. Please check your coverage carefully by asking the following questions: </p>
@@ -114,14 +105,16 @@
   				        <li>What is the coverage amount per therapy session?</li>
   				        <li>Is approval required from my primary care physician?</li>
                 </ul>
-        <article>
+        </article>
+    </div>
     </section>
 
     <section>
   	    <h2> FAQ </h2>
-        <div class="faq-grid">
+        <div class="faq-grid panel">
 
-          <article>
+          <div class="farleft dropdown">
+            <img src="img/whytherapy1.jpg" alt="letsbegin">
             <h3> Why Therapy </h3>
               <ol>
                 <li>Dignissimos quasi nisi maiores dolor sunt. </li>
@@ -129,9 +122,10 @@
                 <li>Temporibus aliquid laboriosam expedita quia, id consectetur culpa?</li>
                 <li>Enim iusto ab facere aliquid cumque aut amet tenetur dolores, iure tempora perspiciatis incidunt eveniet nostrum, ea esse doloribus labore unde nobis?</li>
               </ol>
-          </artcile>
+          </div>
 
-          <article>
+          <div class="left dropdown">
+            <img src="img/amirightforyou.jpg" alt="questionmark">
             <h3> Am I Right for You? </h3>
               <ol>
                 <li>Dignissimos quasi nisi maiores dolor sunt. </li>
@@ -139,52 +133,104 @@
                 <li>Temporibus aliquid laboriosam expedita quia, id consectetur culpa?</li>
                 <li>Enim iusto ab facere aliquid cumque aut amet tenetur dolores, iure tempora perspiciatis incidunt eveniet nostrum, ea esse doloribus labore unde nobis?</li>
               </ol>
-          </article>
+          </div>
 
-          <article>
-            <h3> Privacy and Confidentiality </h3>
+          <div class="right dropdown">
+                <img src="img/privacy.jpg" alt="padlock">
+                <h3> Privacy and Confidentiality </h3>
             <ol>
               <li>Dignissimos quasi nisi maiores dolor sunt. </li>
               <li>Fuga unde, rem quo sint dolore est pariatur cupiditate nostrum et suscipit, aperiam aliquam officia libero vel error modi ratione, dolorem consectetur doloribus mollitia! </li>
               <li>Temporibus aliquid laboriosam expedita quia, id consectetur culpa?</li>
               <li>Enim iusto ab facere aliquid cumque aut amet tenetur dolores, iure tempora perspiciatis incidunt eveniet nostrum, ea esse doloribus labore unde nobis?</li>
             </ol>
-          </article>
+          </div>
 
-          <article>
-            <h3> Working with Busy Schedules </h3>
+          <div class="farright dropdown">
+              <img src="img/busy.jpg" alt="crowded">
+              <h3> Working with Busy Schedules </h3>
             <ol>
               <li>Dignissimos quasi nisi maiores dolor sunt. </li>
               <li>Fuga unde, rem quo sint dolore est pariatur cupiditate nostrum et suscipit, aperiam aliquam officia libero vel error modi ratione, dolorem consectetur doloribus mollitia! </li>
               <li>Temporibus aliquid laboriosam expedita quia, id consectetur culpa?</li>
               <li>Enim iusto ab facere aliquid cumque aut amet tenetur dolores, iure tempora perspiciatis incidunt eveniet nostrum, ea esse doloribus labore unde nobis?</li>
             </ol>
-          </article>
+          </div>
+
         </div>
     </section>
 
     <section>
+      <h2> About </h2>
+        <div class="about-grid panel">
+
+          <div class="carousel-wrapper">
+  		        <img src="img/remy.png"> <!--Image 0 -->
+  		        <img src="img/remy2.png"> <!--Image 1 -->
+  		        <img src="img/remy3.png"> <!--Image 2 -->
+  		        <img src="img/remy4.png"> <!--Image 3 -->
+  	      </div>
+  	   </div>
+
+        <div>
+          Therapy Style blah blah blah<br><br>
+          Therapeutic Approach:<br>
+          <p><i>Transformative Nature of Vulnerable Encounter<br>
+By daring to be vulnerable with people in therapy, Whitaker exposed families to an existential encounter. When the family comes “face to face with part of your insides, they have to decide what to do. … They’re free to produce their own extrapolations, depending on how it reverberates inside of them” (Whitaker and Bumberry, 1988).
+The concept of the “I-thou” relationship stems from the writings of Buber (1937), who philosophized that the nature of our interactions with others are often more “I-it” than “I-thou.”
+One of Whitaker’s common therapeutic goals was for family members to begin to experience themselves more openly and nondefensively with one another; that an existential shift occur on a systemic level.</i></p>
+        <h3> Education and Certifications </h3>
+          <ul>
+            <li>BA in Psychology, Colorado State University, 2014</li>
+            <li>MA in Marriage and Family Therapy, Seattle Pacific University, 					      2019 </li>
+            <li> Certified Medical Family Therapist, 2018 </li>
+            <li> AASECT Certified Sex Therapist, 2018 </li>
+          </ul>
+        </div>
+
+     </section>
+
+    <section>
   	    <h2> Contact </h2>
 
+      <div class="contact-grid">
+        <div>
         <h3> Appointment Request </h3>
-        *Insert form, including Last Name, Email and Phone Number. Add option to choose preferred
-        method of contact, and time of day if phone call is selected**
+            <form>
+                First Name:<br>
+                <input type="text" name="firstname"><br>
+                Last Name: <br>
+                <input type="text" name="lastname"><br>
+                Your Phone Number:<br>
+                <input type="text" name="phonenumber"><br>
+                Your Email:<br>
+                <input type="text" name="email"><br>
+                Preferred Date and Time of Appointment:<br>
+                <input type="text" name="datetime"><br>
+                Message (optional): <br>
+                <input type="textarea" name="optionalmessage"><br>
+            </form>
+          <p> I will get back to you within 48 hours of the request submission. </p>
+        </div>
 
-        <p> I will get back to you within 48 hours of the request submission. </p>
+        <div>
+          <img src="img/contact.jpg" alt="contact">
+        </div>
 
-        GOOGLE MAP
-        *location symbol* <p>1234 N Capitol Ave. Seattle, WA 98103</p>
-        *email symbol* <p> remyrousseoulmft@outlook.com</p>
-        *phone symbol* <p> Confidential Voicemail: 555-555-5555 <p>
+        <div>
+          <p> <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d21511.287199795017!2d-122.33332167630465!3d47.62786321789353!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5490152857c86161%3A0xef487dc6bbc25185!2sCapitol+Hill%2C+Seattle%2C+WA!5e0!3m2!1sen!2sus!4v1512343718565" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe> </p> <br>
+          Phone: (555) 555-5555 <br> Capital Hill, Seattle, WA
+        </div>
+
+    </div>
     </section>
+
 </main>
 
   <footer>
-  <button type="button">SCHEDULE AN APPT</button>
-    <p>&copy;2017 Rachel Ciancio</p>
-    <i class="fa fa-phone" aria-hidden="true"></i>
-    <i class="fa fa-email" aria-hidden="true"></i>
-    <i class="fa fa-instagram" aria-hidden="true"></i>
+      <button type="button">SCHEDULE AN APPT</button> <br>
+      Remy Rousseau, MA LMFT || rousseaulmft@gmail.com
+          <p>&copy;2017 Rachel Ciancio</p>
   </footer>
 
   <script src="js/jquery-1.12.0.min.js"></script>
